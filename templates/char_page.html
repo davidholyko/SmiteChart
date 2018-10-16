@@ -11,7 +11,23 @@
 
   {% endfor %}
 
-  <img src = {{icon}} >
-  <h1> {{icon}} </h1>
+  <img src = {{icon[0]}}>
+  <img src = {{card[0]}}>
+
+
+
+  <h1> icon: {{icon}} </h1>
+  <h1> card: {{card}} </h1>
+  <h1> all: {{all}} </h1>
+
+  <h1> all[0][0]: {{all[0][0]}} </h1>
+  <h1> all: {{all}} </h1>
+
+  <h1> attr: {{attr}} </h1>
+  <h1> name: {{name}} </h1>
+
+
+
+
 
 {% endblock %}

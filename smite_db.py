@@ -19,11 +19,14 @@ c.execute(""" CREATE TABLE IF NOT EXISTS god_attributes_table (
 c.execute(""" CREATE TABLE IF NOT EXISTS god_icon_table (
                 name TEXT,
                 godIcon_URL TEXT,
+                godCard_URL TEXT,
                 PRIMARY KEY (name))""")
+
+# need to link primary keys name from gods icon table to attributes table_name
 
 def insert_god(id):
     with conn:
-        c.execute("INSERT OR REPLACE INTO god_attributes_table VALUES (:name, :siege, :initiation, :crowd_control, :wave_clear, :objective_damage)",
+        c.execute("INSERT OR IGNORE INTO god_attributes_table VALUES (:name, :siege, :initiation, :crowd_control, :wave_clear, :objective_damage)",
         {'name': id["name"],
          'siege': id["siege"],
          'initiation': id["initiation"],
@@ -33,9 +36,10 @@ def insert_god(id):
 
 def insert_icon(id):
     with conn:
-        c.execute("INSERT OR REPLACE INTO god_icon_table VALUES (:name, :godIcon_URL)",
+        c.execute("INSERT OR IGNORE INTO god_icon_table VALUES (:name, :godIcon_URL, :godCard_URL)",
         {'name': id["name"],
-         'godIcon_URL': id["godIcon_URL"]})
+         'godIcon_URL': id["godIcon_URL"],
+         'godCard_URL': id["godCard_URL"]})
 
 def import_json(update):
     if (update == False):
@@ -101,12 +105,7 @@ def get_elem(id, elem):
         print("Element is not in table")
         pass
 
-# import_json(update)
+import_json(update)
 # update_table()
 #
-# print(get_all("god_attributes_table"))
-#
 # print(get_all())
-
-# # #
-# # conn.close()

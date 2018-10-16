@@ -24,9 +24,15 @@ def char_page(id):
     c.execute("SELECT godIcon_URL FROM god_icon_table WHERE name = :god", {"god" : id})
     god_icon = c.fetchone()
 
+    c.execute("SELECT godCard_URL FROM god_icon_table WHERE name = :god", {"god" : id})
+    god_card = c.fetchone()
+
+    c.execute("SELECT * FROM god_icon_table WHERE name = :god", {"god" : id})
+    all = c.fetchall()
+
     attributes = ["Name", "Siege", "Initiation", "Crowd Control", "Wave Clear", "Objective Damage"]
 
-    return render_template('char_page.html', name = god_name, attr = attributes, icon = god_icon)
+    return render_template('char_page.html', name = god_name, attr = attributes, icon = god_icon, card = god_card, all = all)
 
 if __name__ == '__main__':
   app.run(debug = True)

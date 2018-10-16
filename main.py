@@ -16,6 +16,9 @@ make_raw_data_json(test)
 make_gods_json()
 # makes god_attributes.json
 make_icon_json()
+#makes god_icon.json
 
 import_json(update)
+# updates table by converting json to table
 update_table()
+# doesnt do anything right now

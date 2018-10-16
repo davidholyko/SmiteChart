@@ -27,11 +27,12 @@ def make_icon_json():
 
       for item in json_data:
         data.append({"name" : item["Name"],
-                    "godIcon_URL": item["godIcon_URL"]})
+                     "godIcon_URL": item["godIcon_URL"],
+                     "godCard_URL": item["godCard_URL"]})
 
       gods_json = json.dumps(data)
       json.dump(data, f, indent = 1)
 
 
-# make_gods_json()
-# make_icon_json()
+make_gods_json()
+make_icon_json()
