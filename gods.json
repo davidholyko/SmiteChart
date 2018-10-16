@@ -1,0 +1,786 @@
+[
+ {
+  "name": "Achilles",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Agni",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ah Muzen Cab",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ah Puch",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Amaterasu",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Anhur",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Anubis",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ao Kuang",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Aphrodite",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Apollo",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Arachne",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ares",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Artemis",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Artio",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Athena",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Awilix",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Bacchus",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Bakasura",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Baron Samedi",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Bastet",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Bellona",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Cabrakan",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Camazotz",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Cerberus",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Cernunnos",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Chaac",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Chang'e",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Chernobog",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Chiron",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Chronos",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Cu Chulainn",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Cupid",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Da Ji",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Discordia",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Erlang Shen",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Fafnir",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Fenrir",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Freya",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ganesha",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Geb",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Guan Yu",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Hachiman",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Hades",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "He Bo",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Hel",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Hera",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Hercules",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Hou Yi",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Hun Batz",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Isis",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Izanami",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Janus",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Jing Wei",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Kali",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Khepri",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Kukulkan",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Kumbhakarna",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Kuzenbo",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Loki",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Medusa",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Mercury",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ne Zha",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Neith",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Nemesis",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Nike",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Nox",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Nu Wa",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Odin",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Osiris",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Pele",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Poseidon",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ra",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Raijin",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Rama",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ratatoskr",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ravana",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Scylla",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Serqet",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Skadi",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Sobek",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Sol",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Sun Wukong",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Susano",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Sylvanus",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Terra",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Thanatos",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "The Morrigan",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Thor",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Thoth",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Tyr",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ullr",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Vamana",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Vulcan",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Xbalanque",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Xing Tian",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Ymir",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Zeus",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ },
+ {
+  "name": "Zhong Kui",
+  "siege": 0,
+  "initiation": 0,
+  "crowd_control": 0,
+  "wave_clear": 0,
+  "objective_damage": 0
+ }
+]

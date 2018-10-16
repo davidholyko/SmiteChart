@@ -1,0 +1,972 @@
+[
+ {
+  "Achilles": {
+   "Name": "Achilles",
+   "Siege": 2,
+   "Initiation": 3,
+   "Crowd_control": 2,
+   "Wave_clear": 2,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Agni": {
+   "Name": "Agni",
+   "Siege": 2,
+   "Initiation": 1,
+   "Crowd_control": 2,
+   "Wave_clear": 1,
+   "Objective_damage": 3
+  }
+ },
+ {
+  "Ah Muzen Cab": {
+   "Name": "Ah Muzen Cab",
+   "Siege": 4,
+   "Initiation": 0,
+   "Crowd_control": 2,
+   "Wave_clear": 5,
+   "Objective_damage": 5
+  }
+ },
+ {
+  "Ah Puch": {
+   "Name": "Ah Puch",
+   "Siege": 3,
+   "Initiation": 0,
+   "Crowd_control": 1,
+   "Wave_clear": 3,
+   "Objective_damage": 4
+  }
+ },
+ {
+  "Amaterasu": {
+   "Name": "Amaterasu",
+   "Siege": 3,
+   "Initiation": 3,
+   "Crowd_control": 3,
+   "Wave_clear": 3,
+   "Objective_damage": 2
+  }
+ },
+ {
+  "Anhur": {
+   "Name": "Anhur",
+   "Siege": 2,
+   "Initiation": 1,
+   "Crowd_control": 2,
+   "Wave_clear": 3,
+   "Objective_damage": 3
+  }
+ },
+ {
+  "Anubis": {
+   "Name": "Anubis",
+   "Siege": 2,
+   "Initiation": 1,
+   "Crowd_control": 3,
+   "Wave_clear": 5,
+   "Objective_damage": 4
+  }
+ },
+ {
+  "Ao Kuang": {
+   "Name": "Ao Kuang",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 2,
+   "Wave_clear": 2,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Aphrodite": {
+   "Name": "Aphrodite",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Apollo": {
+   "Name": "Apollo",
+   "Siege": 2,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 3,
+   "Objective_damage": 2
+  }
+ },
+ {
+  "Arachne": {
+   "Name": "Arachne",
+   "Siege": 0,
+   "Initiation": 2,
+   "Crowd_control": 3,
+   "Wave_clear": 1,
+   "Objective_damage": 2
+  }
+ },
+ {
+  "Ares": {
+   "Name": "Ares",
+   "Siege": 3,
+   "Initiation": 4,
+   "Crowd_control": 4,
+   "Wave_clear": 1,
+   "Objective_damage": 0
+  }
+ },
+ {
+  "Artemis": {
+   "Name": "Artemis",
+   "Siege": 2,
+   "Initiation": 2,
+   "Crowd_control": 3,
+   "Wave_clear": 2,
+   "Objective_damage": 2
+  }
+ },
+ {
+  "Artio": {
+   "Name": "Artio",
+   "Siege": 3,
+   "Initiation": 2,
+   "Crowd_control": 5,
+   "Wave_clear": 2,
+   "Objective_damage": 0
+  }
+ },
+ {
+  "Athena": {
+   "Name": "Athena",
+   "Siege": 3,
+   "Initiation": 4,
+   "Crowd_control": 4,
+   "Wave_clear": 2,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Awilix": {
+   "Name": "Awilix",
+   "Siege": 0,
+   "Initiation": 3,
+   "Crowd_control": 3,
+   "Wave_clear": 3,
+   "Objective_damage": 3
+  }
+ },
+ {
+  "Bacchus": {
+   "Name": "Bacchus",
+   "Siege": 3,
+   "Initiation": 4,
+   "Crowd_control": 5,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Bakasura": {
+   "Name": "Bakasura",
+   "Siege": 1,
+   "Initiation": 2,
+   "Crowd_control": 2,
+   "Wave_clear": 2,
+   "Objective_damage": 2
+  }
+ },
+ {
+  "Baron Samedi": {
+   "Name": "Baron Samedi",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Bastet": {
+   "Name": "Bastet",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Bellona": {
+   "Name": "Bellona",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Cabrakan": {
+   "Name": "Cabrakan",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Camazotz": {
+   "Name": "Camazotz",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Cerberus": {
+   "Name": "Cerberus",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Cernunnos": {
+   "Name": "Cernunnos",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Chaac": {
+   "Name": "Chaac",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Chang'e": {
+   "Name": "Chang'e",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Chernobog": {
+   "Name": "Chernobog",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Chiron": {
+   "Name": "Chiron",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Chronos": {
+   "Name": "Chronos",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Cu Chulainn": {
+   "Name": "Cu Chulainn",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Cupid": {
+   "Name": "Cupid",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Da Ji": {
+   "Name": "Da Ji",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Discordia": {
+   "Name": "Discordia",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Erlang Shen": {
+   "Name": "Erlang Shen",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Fafnir": {
+   "Name": "Fafnir",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Fenrir": {
+   "Name": "Fenrir",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Freya": {
+   "Name": "Freya",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Ganesha": {
+   "Name": "Ganesha",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Geb": {
+   "Name": "Geb",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Guan Yu": {
+   "Name": "Guan Yu",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Hachiman": {
+   "Name": "Hachiman",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Hades": {
+   "Name": "Hades",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "He Bo": {
+   "Name": "He Bo",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Hel": {
+   "Name": "Hel",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Hercules": {
+   "Name": "Hercules",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Hou Yi": {
+   "Name": "Hou Yi",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Hun Batz": {
+   "Name": "Hun Batz",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Isis": {
+   "Name": "Isis",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Izanami": {
+   "Name": "Izanami",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Janus": {
+   "Name": "Janus",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Jing Wei": {
+   "Name": "Jing Wei",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Kali": {
+   "Name": "Kali",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Khepri": {
+   "Name": "Khepri",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Kukulkan": {
+   "Name": "Kukulkan",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Kumbhakarna": {
+   "Name": "Kumbhakarna",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Kuzenbo": {
+   "Name": "Kuzenbo",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Loki": {
+   "Name": "Loki",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Medusa": {
+   "Name": "Medusa",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Mercury": {
+   "Name": "Mercury",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Ne Zha": {
+   "Name": "Ne Zha",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Neith": {
+   "Name": "Neith",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Nemesis": {
+   "Name": "Nemesis",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Nike": {
+   "Name": "Nike",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Nox": {
+   "Name": "Nox",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Nu Wa": {
+   "Name": "Nu Wa",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Odin": {
+   "Name": "Odin",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Osiris": {
+   "Name": "Osiris",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Pele": {
+   "Name": "Pele",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Poseidon": {
+   "Name": "Poseidon",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Ra": {
+   "Name": "Ra",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Raijin": {
+   "Name": "Raijin",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Rama": {
+   "Name": "Rama",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Ratatoskr": {
+   "Name": "Ratatoskr",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Ravana": {
+   "Name": "Ravana",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Scylla": {
+   "Name": "Scylla",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Serqet": {
+   "Name": "Serqet",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Skadi": {
+   "Name": "Skadi",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Sobek": {
+   "Name": "Sobek",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Sol": {
+   "Name": "Sol",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Sun Wukong": {
+   "Name": "Sun Wukong",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Susano": {
+   "Name": "Susano",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Sylvanus": {
+   "Name": "Sylvanus",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Terra": {
+   "Name": "Terra",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Thanatos": {
+   "Name": "Thanatos",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "The Morrigan": {
+   "Name": "The Morrigan",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Thor": {
+   "Name": "Thor",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Thoth": {
+   "Name": "Thoth",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Tyr": {
+   "Name": "Tyr",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Ullr": {
+   "Name": "Ullr",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Vamana": {
+   "Name": "Vamana",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Vulcan": {
+   "Name": "Vulcan",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Xbalanque": {
+   "Name": "Xbalanque",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Xing Tian": {
+   "Name": "Xing Tian",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Ymir": {
+   "Name": "Ymir",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Zeus": {
+   "Name": "Zeus",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ },
+ {
+  "Zhong Kui": {
+   "Name": "Zhong Kui",
+   "Siege": 0,
+   "Initiation": 1,
+   "Crowd_control": 1,
+   "Wave_clear": 1,
+   "Objective_damage": 1
+  }
+ }
+]

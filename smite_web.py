@@ -1,0 +1,29 @@
+from flask import Flask, render_template
+from smite_db import *
+import sqlite3
+
+app = Flask(__name__)
+
+@app.route("/")
+@app.route("/home/")
+def data():
+    conn = sqlite3.connect("gods.db")
+    c = conn.cursor()
+    c.execute("SELECT * FROM gods")
+    gods_list = c.fetchall()
+
+    return render_template('data.html', data = gods_list)
+
+@app.route('/gods/<string:id>/')
+def char_page(id):
+    conn = sqlite3.connect("god_attributes.db")
+    c = conn.cursor()
+    c.execute("SELECT * FROM god_attributes_table WHERE name = :god", {"god" : id})
+    god_name = c.fetchone()
+
+    attributes = ["Name", "Siege", "Initiation", "Crowd Control", "Wave Clear", "Objective Damage"]
+
+    return render_template('char_page.html', name = god_name, attr = attributes)
+
+if __name__ == '__main__':
+  app.run(debug = True)

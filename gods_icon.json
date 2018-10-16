@@ -1,0 +1,394 @@
+[
+ {
+  "Name": "Achilles",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/achilles.jpg"
+ },
+ {
+  "Name": "Agni",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/agni.jpg"
+ },
+ {
+  "Name": "Ah Muzen Cab",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ah-muzen-cab.jpg"
+ },
+ {
+  "Name": "Ah Puch",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ah-puch.jpg"
+ },
+ {
+  "Name": "Amaterasu",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/amaterasu.jpg"
+ },
+ {
+  "Name": "Anhur",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/anhur.jpg"
+ },
+ {
+  "Name": "Anubis",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/anubis.jpg"
+ },
+ {
+  "Name": "Ao Kuang",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ao-kuang.jpg"
+ },
+ {
+  "Name": "Aphrodite",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/aphrodite.jpg"
+ },
+ {
+  "Name": "Apollo",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/apollo.jpg"
+ },
+ {
+  "Name": "Arachne",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/arachne.jpg"
+ },
+ {
+  "Name": "Ares",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ares.jpg"
+ },
+ {
+  "Name": "Artemis",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/artemis.jpg"
+ },
+ {
+  "Name": "Artio",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/artio.jpg"
+ },
+ {
+  "Name": "Athena",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/athena.jpg"
+ },
+ {
+  "Name": "Awilix",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/awilix.jpg"
+ },
+ {
+  "Name": "Bacchus",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/bacchus.jpg"
+ },
+ {
+  "Name": "Bakasura",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/bakasura.jpg"
+ },
+ {
+  "Name": "Baron Samedi",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/baron-samedi.jpg"
+ },
+ {
+  "Name": "Bastet",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/bastet.jpg"
+ },
+ {
+  "Name": "Bellona",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/bellona.jpg"
+ },
+ {
+  "Name": "Cabrakan",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/cabrakan.jpg"
+ },
+ {
+  "Name": "Camazotz",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/camazotz.jpg"
+ },
+ {
+  "Name": "Cerberus",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/cerberus.jpg"
+ },
+ {
+  "Name": "Cernunnos",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/cernunnos.jpg"
+ },
+ {
+  "Name": "Chaac",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/chaac.jpg"
+ },
+ {
+  "Name": "Chang'e",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/change.jpg"
+ },
+ {
+  "Name": "Chernobog",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/chernobog.jpg"
+ },
+ {
+  "Name": "Chiron",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/chiron.jpg"
+ },
+ {
+  "Name": "Chronos",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/chronos.jpg"
+ },
+ {
+  "Name": "Cu Chulainn",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/cu-chulainn.jpg"
+ },
+ {
+  "Name": "Cupid",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/cupid.jpg"
+ },
+ {
+  "Name": "Da Ji",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/da-ji.jpg"
+ },
+ {
+  "Name": "Discordia",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/discordia.jpg"
+ },
+ {
+  "Name": "Erlang Shen",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/erlang-shen.jpg"
+ },
+ {
+  "Name": "Fafnir",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/fafnir.jpg"
+ },
+ {
+  "Name": "Fenrir",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/fenrir.jpg"
+ },
+ {
+  "Name": "Freya",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/freya.jpg"
+ },
+ {
+  "Name": "Ganesha",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ganesha.jpg"
+ },
+ {
+  "Name": "Geb",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/geb.jpg"
+ },
+ {
+  "Name": "Guan Yu",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/guan-yu.jpg"
+ },
+ {
+  "Name": "Hachiman",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/hachiman.jpg"
+ },
+ {
+  "Name": "Hades",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/hades.jpg"
+ },
+ {
+  "Name": "He Bo",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/he-bo.jpg"
+ },
+ {
+  "Name": "Hel",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/hel.jpg"
+ },
+ {
+  "Name": "Hera",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/hera.jpg"
+ },
+ {
+  "Name": "Hercules",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/hercules.jpg"
+ },
+ {
+  "Name": "Hou Yi",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/hou-yi.jpg"
+ },
+ {
+  "Name": "Hun Batz",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/hun-batz.jpg"
+ },
+ {
+  "Name": "Isis",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/isis.jpg"
+ },
+ {
+  "Name": "Izanami",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/izanami.jpg"
+ },
+ {
+  "Name": "Janus",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/janus.jpg"
+ },
+ {
+  "Name": "Jing Wei",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/jing-wei.jpg"
+ },
+ {
+  "Name": "Kali",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/kali.jpg"
+ },
+ {
+  "Name": "Khepri",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/khepri.jpg"
+ },
+ {
+  "Name": "Kukulkan",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/kukulkan.jpg"
+ },
+ {
+  "Name": "Kumbhakarna",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/kumbhakarna.jpg"
+ },
+ {
+  "Name": "Kuzenbo",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/kuzenbo.jpg"
+ },
+ {
+  "Name": "Loki",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/loki.jpg"
+ },
+ {
+  "Name": "Medusa",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/medusa.jpg"
+ },
+ {
+  "Name": "Mercury",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/mercury.jpg"
+ },
+ {
+  "Name": "Ne Zha",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ne-zha.jpg"
+ },
+ {
+  "Name": "Neith",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/neith.jpg"
+ },
+ {
+  "Name": "Nemesis",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/nemesis.jpg"
+ },
+ {
+  "Name": "Nike",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/nike.jpg"
+ },
+ {
+  "Name": "Nox",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/nox.jpg"
+ },
+ {
+  "Name": "Nu Wa",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/nu-wa.jpg"
+ },
+ {
+  "Name": "Odin",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/odin.jpg"
+ },
+ {
+  "Name": "Osiris",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/osiris.jpg"
+ },
+ {
+  "Name": "Pele",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/pele.jpg"
+ },
+ {
+  "Name": "Poseidon",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/poseidon.jpg"
+ },
+ {
+  "Name": "Ra",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ra.jpg"
+ },
+ {
+  "Name": "Raijin",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/raijin.jpg"
+ },
+ {
+  "Name": "Rama",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/rama.jpg"
+ },
+ {
+  "Name": "Ratatoskr",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ratatoskr.jpg"
+ },
+ {
+  "Name": "Ravana",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ravana.jpg"
+ },
+ {
+  "Name": "Scylla",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/scylla.jpg"
+ },
+ {
+  "Name": "Serqet",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/serqet.jpg"
+ },
+ {
+  "Name": "Skadi",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/skadi.jpg"
+ },
+ {
+  "Name": "Sobek",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/sobek.jpg"
+ },
+ {
+  "Name": "Sol",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/sol.jpg"
+ },
+ {
+  "Name": "Sun Wukong",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/sun-wukong.jpg"
+ },
+ {
+  "Name": "Susano",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/susano.jpg"
+ },
+ {
+  "Name": "Sylvanus",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/sylvanus.jpg"
+ },
+ {
+  "Name": "Terra",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/terra.jpg"
+ },
+ {
+  "Name": "Thanatos",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/thanatos.jpg"
+ },
+ {
+  "Name": "The Morrigan",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/the-morrigan.jpg"
+ },
+ {
+  "Name": "Thor",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/thor.jpg"
+ },
+ {
+  "Name": "Thoth",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/thoth.jpg"
+ },
+ {
+  "Name": "Tyr",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/tyr.jpg"
+ },
+ {
+  "Name": "Ullr",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ullr.jpg"
+ },
+ {
+  "Name": "Vamana",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/vamana.jpg"
+ },
+ {
+  "Name": "Vulcan",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/vulcan.jpg"
+ },
+ {
+  "Name": "Xbalanque",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/xbalanque.jpg"
+ },
+ {
+  "Name": "Xing Tian",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/xing-tian.jpg"
+ },
+ {
+  "Name": "Ymir",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/ymir.jpg"
+ },
+ {
+  "Name": "Zeus",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/zeus.jpg"
+ },
+ {
+  "Name": "Zhong Kui",
+  "godIcon_URL": "https://web2.hirez.com/smite/god-icons/zhong-kui.jpg"
+ }
+]
