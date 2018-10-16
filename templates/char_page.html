@@ -1,13 +1,17 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<!-- 
+<!--
   <h1>{{name}}</h1>
   <h1>{{attr}}</h1> -->
 
   {% for x in range(6) %}
   <h1> {{attr[x]}} : {{name[x]}} </h1>
 
+
   {% endfor %}
+
+  <img src = {{icon}} >
+  <h1> {{icon}} </h1>
 
 {% endblock %}

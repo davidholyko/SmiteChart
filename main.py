@@ -1,5 +1,6 @@
 from smite_api import SmiteClient
 from smite_data import *
+from smite_db import *
 import json
 
 
@@ -13,5 +14,8 @@ test = SmiteClient(devID, authKey)
 make_raw_data_json(test)
 # makes raw_data.json
 make_gods_json()
-# makes gods.json
+# makes god_attributes.json
 make_icon_json()
+
+import_json(update)
+update_table()

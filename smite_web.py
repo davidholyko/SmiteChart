@@ -7,9 +7,9 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home/")
 def data():
-    conn = sqlite3.connect("gods.db")
+    conn = sqlite3.connect("god_attributes.db")
     c = conn.cursor()
-    c.execute("SELECT * FROM gods")
+    c.execute("SELECT * FROM god_attributes_table")
     gods_list = c.fetchall()
 
     return render_template('data.html', data = gods_list)
@@ -21,9 +21,12 @@ def char_page(id):
     c.execute("SELECT * FROM god_attributes_table WHERE name = :god", {"god" : id})
     god_name = c.fetchone()
 
+    c.execute("SELECT godIcon_URL FROM god_icon_table WHERE name = :god", {"god" : id})
+    god_icon = c.fetchone()
+
     attributes = ["Name", "Siege", "Initiation", "Crowd Control", "Wave Clear", "Objective Damage"]
 
-    return render_template('char_page.html', name = god_name, attr = attributes)
+    return render_template('char_page.html', name = god_name, attr = attributes, icon = god_icon)
 
 if __name__ == '__main__':
   app.run(debug = True)
