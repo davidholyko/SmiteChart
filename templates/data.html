@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <h1> God Names </h1>
+  <!-- {{data}} -->
+
+  {% for item in data %}
+    <br></br>
+    <li class="list-group-item"> <a href="gods/{{item[0]}}"> {{item}} </a> </li>
+
+  {% endfor %}
+
+{% endblock %}
