@@ -9,13 +9,10 @@ def test():
     conn = sqlite3.connect("god_attributes.db")
     c = conn.cursor()
 
-    c.execute("SELECT name FROM god_attributes_table")
-    name = c.fetchall()
+    c.execute("SELECT * FROM god_icon_table")
+    all = c.fetchall()
 
-    c.execute("SELECT godIcon_URL FROM god_icon_table")
-    god_icon = c.fetchall()
-
-    return render_template("home.html", name = name, god_icon = god_icon)
+    return render_template("home.html", all = all)
 
 @app.route("/")
 @app.route("/gods/")

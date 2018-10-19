@@ -4,23 +4,18 @@
 
 <h1>{{name}}</h1>
 <h1>{{god_icon}}</h1>
+<h1>{{all}}</h1>
 
-<h1>{{god_icon[3]}}</h1>
 
-
-{% for item in name %}
+{% for item in all %}
     <br></br>
-    <li class="list-group-item"> <a href="gods/{{item}}"> {{item}} </a> </li>
+    <li class="list-group-item"> <a href="gods/{{item[0]}}"> <img class="thumbnail" src="{{item[2]}}"></a> </li>
 {% endfor %}
 
 
-{% for item in god_icon %}
-    <br></br>
-    <li class="list-group-item"> <a href="gods/{{item}}"> <img class="thumbnail" src="{{god_icon[0]}}"></a> </li>
-
-{% endfor %}
 
 
+<!--
 <img class="thumbnail" src="https://placehold.it/550x550">
 <h5>My Site</h5>
 </div>
@@ -65,4 +60,4 @@
 <h5>My Site</h5>
 </div>
 <div class="cell">
-<img class="thumbnail" src="https://placehold.it/550x550">
+<img class="thumbnail" src="https://placehold.it/550x550"> -->
