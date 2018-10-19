@@ -9,11 +9,15 @@ except ImportError:
 from datetime import datetime
 
 
+devID = "2787";
+authKey = "693A2C5633AE4479B35620D485D1FF2E";
+
+
 class SmiteClient(object):
     _BASE_URL = 'http://api.smitegame.com/smiteapi.svc/'
     _RESPONSE_FORMAT = 'Json'
 
-    def __init__(self, dev_id, auth_key, lang=1):
+    def __init__(self, dev_id = devID, auth_key = authKey, lang=1):
         """
         :param dev_id: Your private developer ID supplied by Hi-rez. Can be requested here: https://fs12.formsite.com/HiRez/form48/secure_index.html
         :param auth_key: Your authorization key

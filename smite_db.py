@@ -4,7 +4,6 @@ from god_attributes_class import God_attributes
 
 conn = sqlite3.connect("god_attributes.db")
 c = conn.cursor()
-update = False
 
 c.execute(""" CREATE TABLE IF NOT EXISTS god_attributes_table (
                 name TEXT,
@@ -41,7 +40,7 @@ def insert_icon(id):
          'godIcon_URL': id["godIcon_URL"],
          'godCard_URL': id["godCard_URL"]})
 
-def import_json(update):
+def import_json(update = False):
     if (update == False):
         json_data = json.loads(open('god_attributes.json').read())
 
@@ -105,7 +104,6 @@ def get_elem(id, elem):
         print("Element is not in table")
         pass
 
-import_json(update)
-# update_table()
+
 #
 # print(get_all())
