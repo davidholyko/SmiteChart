@@ -33,6 +33,6 @@ def make_icon_json():
       gods_json = json.dumps(data)
       json.dump(data, f, indent = 1)
 
-
-make_gods_json()
-make_icon_json()
+# 
+# make_gods_json()
+# make_icon_json()
