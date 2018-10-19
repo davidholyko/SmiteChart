@@ -14,11 +14,11 @@ c.execute(""" CREATE TABLE IF NOT EXISTS god_attributes_table (
                 objective_damage INT,
                 PRIMARY KEY (name))""")
 
-
 c.execute(""" CREATE TABLE IF NOT EXISTS god_icon_table (
                 name TEXT,
                 godIcon_URL TEXT,
                 godCard_URL TEXT,
+                bin INT,
                 PRIMARY KEY (name))""")
 
 # need to link primary keys name from gods icon table to attributes table_name
@@ -35,10 +35,11 @@ def insert_god(id):
 
 def insert_icon(id):
     with conn:
-        c.execute("INSERT OR IGNORE INTO god_icon_table VALUES (:name, :godIcon_URL, :godCard_URL)",
+        c.execute("INSERT OR IGNORE INTO god_icon_table VALUES (:name, :godIcon_URL, :godCard_URL, :bin)",
         {'name': id["name"],
          'godIcon_URL': id["godIcon_URL"],
-         'godCard_URL': id["godCard_URL"]})
+         'godCard_URL': id["godCard_URL"],
+         'bin': 0})
 
 def import_json(update = False):
     if (update == False):
@@ -51,7 +52,6 @@ def import_json(update = False):
 
         for item in json_data:
             insert_icon(item)
-
         update = True
     else:
         pass

@@ -1,6 +1,26 @@
 <article class="grid-container">
 <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-4">
 <div class="cell">
+
+<h1>{{name}}</h1>
+<h1>{{god_icon}}</h1>
+
+<h1>{{god_icon[3]}}</h1>
+
+
+{% for item in name %}
+    <br></br>
+    <li class="list-group-item"> <a href="gods/{{item}}"> {{item}} </a> </li>
+{% endfor %}
+
+
+{% for item in god_icon %}
+    <br></br>
+    <li class="list-group-item"> <a href="gods/{{item}}"> <img class="thumbnail" src="{{god_icon[0]}}"></a> </li>
+
+{% endfor %}
+
+
 <img class="thumbnail" src="https://placehold.it/550x550">
 <h5>My Site</h5>
 </div>

@@ -4,9 +4,18 @@ import sqlite3
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/test/")
 def test():
-    return render_template("home.html")
+    conn = sqlite3.connect("god_attributes.db")
+    c = conn.cursor()
+
+    c.execute("SELECT name FROM god_attributes_table")
+    name = c.fetchall()
+
+    c.execute("SELECT godIcon_URL FROM god_icon_table")
+    god_icon = c.fetchall()
+
+    return render_template("home.html", name = name, god_icon = god_icon)
 
 @app.route("/")
 @app.route("/gods/")
@@ -32,7 +41,7 @@ def char_page(id):
     god_card = c.fetchone()
 
     c.execute("SELECT * FROM god_icon_table WHERE name = :god", {"god" : id})
-    all = c.fetchall()
+    all = c.fetchone()
 
     attributes = ["Name", "Siege", "Initiation", "Crowd Control", "Wave Clear", "Objective Damage"]
 
