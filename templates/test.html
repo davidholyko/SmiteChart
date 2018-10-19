@@ -1,0 +1,113 @@
+<head>
+  <title>CSS Grid</title>
+  <style>
+    .wrapper{
+      display:grid;
+      grid-template-columns:1fr 2fr 1fr;
+      grid-auto-rows:minmax(100px, auto);
+      grid-gap:1em;
+      justify-items:stretch;
+      align-items:stretch;
+    }
+
+    .wrapper > div{
+      background:#eee;
+      padding:1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background:#ddd;
+    }
+
+    .box1{
+      /*align-self:start;*/
+      grid-column:1/10;
+      grid-row:1/10;
+    }
+
+    .box2{
+      /*align-self:end;*/
+      grid-column:3;
+      grid-row:1/3;
+    }
+
+    .box3{
+      /*justify-self:end;*/
+      grid-column:2/4;
+      grid-row:3;
+    }
+
+    .box4{
+      grid-column:1;
+      grid-row:2/4;
+      border:1px solid #333;
+    }
+
+  </style>
+</head>
+
+<!-- <h1>{{name}}</h1>
+<h1>{{god_icon}}</h1>
+<h1>{{all}}</h1>
+
+
+{% for item in all %}
+    <br></br>
+    <a href="gods/{{item[0]}}"> <img class="thumbnail" src="{{item[2]}}"></a>
+{% endfor %} -->
+
+
+<body>
+  <div class="wrapper">
+    {% for item in all %}
+    <div class="thumbail"> <a href="gods/{{item[0]}}"> <img class="thumbnail" src="{{item[1]}}"> {{item[0]}}  </a> </div>
+    {% endfor %}
+  </div>
+</body>
+
+
+<!--
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550"> -->

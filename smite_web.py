@@ -12,7 +12,7 @@ def test():
     c.execute("SELECT * FROM god_icon_table")
     all = c.fetchall()
 
-    return render_template("home.html", all = all)
+    return render_template("test.html", all = all)
 
 @app.route("/")
 @app.route("/gods/")
