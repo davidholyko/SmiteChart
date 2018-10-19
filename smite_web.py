@@ -19,10 +19,11 @@ def test():
 def data():
     conn = sqlite3.connect("god_attributes.db")
     c = conn.cursor()
-    c.execute("SELECT * FROM god_attributes_table")
-    gods_list = c.fetchall()
 
-    return render_template('home.html', data = gods_list)
+    c.execute("SELECT * FROM god_icon_table")
+    all = c.fetchall()
+
+    return render_template('home.html', all = all)
 
 @app.route('/gods/<string:id>/')
 def char_page(id):

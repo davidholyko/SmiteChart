@@ -1,0 +1,87 @@
+<head>
+  <title>CSS Grid</title>
+  <style>
+    .wrapper{
+      display:grid;
+      grid-template-columns:1fr 2fr 1fr;
+      grid-auto-rows:minmax(100px, auto);
+      grid-gap:1em;
+      justify-items:stretch;
+      align-items:stretch;
+    }
+
+    .wrapper > div{
+      background:#eee;
+      padding:1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background:#ddd;
+    }
+
+    img {
+      max-width: 100px;
+      max-length: 100px;}
+
+
+  </style>
+</head>
+
+
+  <li class="list-group-item"> <a href="test"> link to test page </a> </li>
+
+
+<body>
+  <div class="wrapper">
+    {% for item in all %}
+    <div class="thumbail"> <a href="gods/{{item[0]}}"> <img class="thumbnail" src="{{item[1]}}"> {{item[0]}}  </a> </div>
+    {% endfor %}
+  </div>
+</body>
+
+
+<!--
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550">
+<h5>My Site</h5>
+</div>
+<div class="cell">
+<img class="thumbnail" src="https://placehold.it/550x550"> -->
