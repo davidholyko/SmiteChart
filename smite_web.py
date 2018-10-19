@@ -4,8 +4,11 @@ import sqlite3
 
 app = Flask(__name__)
 
+@app.route("/test/")
+def test():
+    return render_template("home.html")
+
 @app.route("/")
-@app.route("/home/")
 def data():
     conn = sqlite3.connect("god_attributes.db")
     c = conn.cursor()
