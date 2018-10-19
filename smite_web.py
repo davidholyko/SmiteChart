@@ -22,7 +22,7 @@ def data():
     c.execute("SELECT * FROM god_attributes_table")
     gods_list = c.fetchall()
 
-    return render_template('data.html', data = gods_list)
+    return render_template('home.html', data = gods_list)
 
 @app.route('/gods/<string:id>/')
 def char_page(id):
