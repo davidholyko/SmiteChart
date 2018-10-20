@@ -5,7 +5,7 @@ labels=['siege', 'initiation', 'crowd_control', 'wave_clear', 'objective_damage'
 markers = [0, 1, 2, 3, 4, 5]
 str_markers = ["0", "1", "2", "3", "4", "5"]
 
-def make_radar_chart(stats, attribute_labels, god_name, plot_markers = markers, plot_str_markers = str_markers):
+def make_radar_chart(stats, attribute_labels, title, plot_markers = markers, plot_str_markers = str_markers):
 
     labels = np.array(attribute_labels)
 
@@ -19,7 +19,7 @@ def make_radar_chart(stats, attribute_labels, god_name, plot_markers = markers, 
     ax.fill(angles, stats, alpha=0.25)
     ax.set_thetagrids(angles * 180/np.pi, labels)
     plt.yticks(markers)
-    ax.set_title(god_name)
+    ax.set_title(title)
     ax.grid(True)
 
     plt.show()

@@ -62,45 +62,54 @@ def get_all_by_table_name(table_name):
     #gets all by records by table name
     pass
 
-
-def get_siege(id):
-    c.execute("SELECT siege FROM god_attributes_table WHERE name = :god",  {"god" : id})
-    return c.fetchall()
-
-def get_initiation(id):
-    c.execute("SELECT initiation FROM god_attributes_table WHERE name = :god",  {"god" : id})
-    return c.fetchall()
-
-def get_crowd_control(id):
-    c.execute("SELECT crowd_control FROM god_attributes_table WHERE name = :god",  {"god" : id})
-    return c.fetchall()
-
-def get_wave_clear(id):
-    c.execute("SELECT wave_clear FROM god_attributes_table WHERE name = :god",  {"god" : id})
-    return c.fetchall()
-
-def get_objective_damage(id):
-    c.execute("SELECT objective_damage FROM god_attributes_table WHERE name = :god",  {"god" : id})
-    return c.fetchall()
-
 def update_table():
     # updates table if it needs to be updated
     pass
 
 def get_elem(id, elem):
-    if elem == "siege":
-        return get_siege(id)
-    if elem == "initiation":
-        return get_initiation(id)
-    if elem == "crowd_control":
-        return get_crowd_control(id)
-    if elem == "wave_clear":
-        return get_wave_clear(id)
-    if elem == "objective_damage":
-        return get_objective_damage(id)
-    else:
-        print("Element is not in table")
-        pass
+    # returns item in form "(x,)"
+
+    def get_siege(id):
+        c.execute("SELECT siege FROM god_attributes_table WHERE name = :god",  {"god" : id})
+        return c.fetchone()
+
+    def get_initiation(id):
+        c.execute("SELECT initiation FROM god_attributes_table WHERE name = :god",  {"god" : id})
+        return c.fetchone()
+
+    def get_crowd_control(id):
+        c.execute("SELECT crowd_control FROM god_attributes_table WHERE name = :god",  {"god" : id})
+        return c.fetchone()
+
+    def get_wave_clear(id):
+        c.execute("SELECT wave_clear FROM god_attributes_table WHERE name = :god",  {"god" : id})
+        return c.fetchone()
+
+    def get_objective_damage(id):
+        c.execute("SELECT objective_damage FROM god_attributes_table WHERE name = :god",  {"god" : id})
+        return c.fetchone()
+
+    methods = {"siege" : get_siege(id), "initiation" : get_initiation(id), "crowd_control" : get_crowd_control(id), "wave_clear" : get_wave_clear(id), "objective_damage" : get_objective_damage(id)}
+    error_string = ""
+    god_list = []
+
+    json_data = json.loads(open('god_attributes.json').read())
+    for item in json_data:
+        god_list.append(item["name"])
+
+    if id not in god_list:
+        error_string += ('Name: "%s" is not in table' % id)
+    if elem not in methods:
+        error_string += ('\n "elem": %s is not a valid method' % elem)
+
+    if len(error_string) >= 1:
+        print(error_string)
+
+    return methods.get(elem)
+
+def get_stats(id):
+    # gets all stats by name from db and puts into array
+    pass
 
 
 #
