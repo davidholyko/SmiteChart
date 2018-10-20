@@ -15,3 +15,5 @@ import_json()
 # updates table by converting json to table
 update_table()
 # doesnt do anything right now
+make_stats_from_db()
+# makes a stats json updated from db

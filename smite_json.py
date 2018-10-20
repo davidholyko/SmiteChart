@@ -1,4 +1,5 @@
 from god_attributes_class import God_attributes
+from smite_db import *
 import json
 
 def make_raw_data_json(elem):
@@ -29,10 +30,21 @@ def make_icon_json():
         data.append({"name" : item["Name"],
                      "godIcon_URL": item["godIcon_URL"],
                      "godCard_URL": item["godCard_URL"]})
-                     
+
       gods_json = json.dumps(data)
       json.dump(data, f, indent = 1)
 
-#
-# make_gods_json()
-# make_icon_json()
+def make_stats_from_db():
+    with open("god_stats.json", "w") as f:
+        json_data = json.loads(open('god_attributes.json').read())
+        data = {}
+
+        # makes dict
+        for item in json_data:
+            data[item["name"]] = get_stats(item["name"])
+
+        json.dump(data, f)
+
+def get_stats_from_db(id):
+    json_data = json.loads(open('god_stats.json').read())
+    return json_data[id]
