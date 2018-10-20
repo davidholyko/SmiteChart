@@ -48,7 +48,10 @@ def char_page(id):
     all = c.fetchone()
 
     stats = get_stats_from_db(id)
-    chart = make_radar_chart(id, stats)
+    # chart = make_radar_chart(id, stats)
+
+    chart = ""
+
 
 
 
