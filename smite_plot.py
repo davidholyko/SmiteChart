@@ -1,13 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-labels=['siege', 'initiation', 'crowd_control', 'wave_clear', 'objective_damage']
+labels=['Siege', 'Initiation', 'Crowd Control', 'Wave Clear', 'Objective Damage']
 markers = [0, 1, 2, 3, 4, 5]
-str_markers = ["0", "1", "2", "3", "4", "5"]
 
-def make_radar_chart(name, stats, attribute_labels = labels, plot_markers = markers, plot_str_markers = str_markers):
+def make_radar_chart(name, stats, labels = labels, plot_markers = markers):
 
-    labels = np.array(attribute_labels)
+    labels = np.array(labels)
 
     angles = np.linspace(0, 2*np.pi, len(labels), endpoint=False)
     stats = np.concatenate((stats,[stats[0]]))
@@ -18,8 +17,12 @@ def make_radar_chart(name, stats, attribute_labels = labels, plot_markers = mark
     ax.plot(angles, stats, 'o-', linewidth=2)
     ax.fill(angles, stats, alpha=0.25)
     ax.set_thetagrids(angles * 180/np.pi, labels)
-    plt.yticks(markers)
+    plt.yticks(plot_markers)
     ax.set_title(name)
     ax.grid(True)
 
-    return plt.show()
+    fig.savefig("static/images/%s.png" % name)
+
+
+#
+# make_radar_chart("Agni", [2,3,4,4,5])

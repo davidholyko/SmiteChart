@@ -43,7 +43,7 @@ def make_stats_from_db():
         for item in json_data:
             data[item["name"]] = get_stats(item["name"])
 
-        json.dump(data, f)
+        json.dump(data, f, indent = 1)
 
 def get_stats_from_db(id):
     json_data = json.loads(open('god_stats.json').read())
