@@ -23,6 +23,4 @@ def make_radar_chart(name, stats, labels = labels, plot_markers = markers):
 
     fig.savefig("static/images/%s.png" % name)
 
-
-#
-# make_radar_chart("Agni", [2,3,4,4,5])
+    # plt.show()
