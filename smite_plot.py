@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+from smite_json import *
+from matplotlib.spines import Spine
 import numpy as np
 
 labels=['Siege', 'Initiation', 'Crowd Control', 'Wave Clear', 'Objective Damage']
@@ -21,6 +23,15 @@ def make_radar_chart(name, stats, labels = labels, plot_markers = markers):
     ax.set_title(name)
     ax.grid(True)
 
-    fig.savefig("static/images/%s.png" % name)
+    gridlines = ax.yaxis.get_gridlines()
+    for gl in gridlines:
+        gl.get_path()._interpolation_steps = 5
 
+    fig.savefig("static/images/tmp/%s.png" % name)
+
+    # shows chart
     # plt.show()
+
+
+# example
+# make_radar_chart("Achilles", stats = get_stats_from_db("Achilles"))

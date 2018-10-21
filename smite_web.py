@@ -32,8 +32,7 @@ def char_test_page(id):
 
     stats = get_stats_from_db(id)
     chart = make_radar_chart(id, stats)
-
-    img = "/static/images/" + str(id) + ".png"
+    img = "/static/images/tmp/" + str(id) + ".png"
 
     return render_template('char_test_page.html', name = god_name, attr = attributes, all = all, stats = stats, img = img)
 

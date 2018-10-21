@@ -119,18 +119,3 @@ def get_stats(id):
     for item in range(1,6):
         stats.append(get_elem(id,item))
     return stats
-
-# def import_stats(id):
-#     c.execute("INSERT INTO god_attributes_table VALUES (:name, :siege, :initiation, :crowd_control, :wave_clear, :objective_damage)",
-#         {'name' : str(id),
-#         'siege': id[0],
-#         'initiation': id[1],
-#         'crowd_control': id[2],
-#         'wave_clear': id[3],
-#         'objective_damage': id[4]})
-#
-#
-# json_data = json.loads(open('god_stats.json').read())
-# for item in json_data:
-#     print(json_data[item])
-#     import_stats(item)
