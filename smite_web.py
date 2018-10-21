@@ -10,13 +10,8 @@ app = Flask(__name__)
 
 @app.route("/test/")
 def test():
-    conn = sqlite3.connect("god_attributes.db")
-    c = conn.cursor()
-
-    c.execute("SELECT * FROM god_icon_table")
-    all = c.fetchall()
-
-    return render_template("test.html", all = all)
+    data = icons()
+    return render_template("test.html",  data = data)
 
 
 @app.route("/test/gods/<string:id>")
@@ -39,13 +34,8 @@ def char_test_page(id):
 @app.route("/")
 @app.route("/gods/")
 def data():
-    conn = sqlite3.connect("god_attributes.db")
-    c = conn.cursor()
-
-    c.execute("SELECT * FROM god_icon_table")
-    all = c.fetchall()
-
-    return render_template('home.html', all = all)
+    data = icons()
+    return render_template('home.html', data = data)
 
 @app.route('/gods/<string:id>/')
 def char_page(id):

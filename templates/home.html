@@ -1,27 +1,27 @@
 <head>
   <title>SmiteChart</title>
   <style>
-    .wrapper{
-      display:grid;
-      grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-      grid-auto-rows:minmax(100px, auto);
-      grid-gap:1em;
-      justify-items:stretch;
-      align-items:stretch;
-    }
+  .wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows:minmax(100px, auto);
+    grid-gap:1em;
+    justify-items:stretch;
+    align-items:stretch;
+  }
 
-    .wrapper > div{
-      background:#eee;
-      padding:1em;
-    }
-    .wrapper > div:nth-child(odd){
-      background:#ddd;
-    }
+  .wrapper > div{
+    background:#eee;
+    padding:1em;
+  }
+  .wrapper > div:nth-child(odd){
+    background:#ddd;
+  }
 
-    img {
-      max-width: 100px;
-      max-length: 100px;}
-
+  img {
+    max-width: 100px;
+    max-length: 100px;}/* XXX:  */;
+  }
 
   </style>
 </head>
@@ -30,10 +30,13 @@
   <li class="list-group-item"> <a href="test"> link to test page </a> </li>
 
 
-<body>
-  <div class="wrapper">
-    {% for item in all %}
-    <div class="thumbail"> <a href="gods/{{item[0]}}"> <img class="thumbnail" src="{{item[1]}}"> {{item[0]}}  </a> </div>
-    {% endfor %}
-  </div>
-</body>
+  <p>
+    <div class="wrapper">
+      {% for item in data %}
+
+      <div class="thumbail"> <a href="gods/{{item}}"> <img src =  {{data[item]["godIcon_URL"]}}> <br>{{item}} </a> </div>
+
+
+      {% endfor %}
+    </div>
+  </p>

@@ -35,9 +35,9 @@ def insert_god(id):
 def insert_icon(id):
     with conn:
         c.execute("INSERT OR IGNORE INTO god_icon_table VALUES (:name, :godIcon_URL, :godCard_URL)",
-        {'name': id["name"],
-         'godIcon_URL': id["godIcon_URL"],
-         'godCard_URL': id["godCard_URL"]})
+        {'name': id,
+         'godIcon_URL': id[0],
+         'godCard_URL': id[1]})
 
 def import_json(update = False):
     if (update == False):

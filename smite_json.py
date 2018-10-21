@@ -23,15 +23,16 @@ def make_gods_json():
 def make_icon_json():
     with open("god_icon.json", "w") as f:
       json_data = json.loads(open('raw_data.json').read())
-      data = []
-      gods_json = {}
+      data = {}
 
       for item in json_data:
-        data.append({"name" : item["Name"],
-                     "godIcon_URL": item["godIcon_URL"],
-                     "godCard_URL": item["godCard_URL"]})
+        # data.append({"name" : item["Name"],
+        #              "godIcon_URL": item["godIcon_URL"],
+        #              "godCard_URL": item["godCard_URL"]})
 
-      gods_json = json.dumps(data)
+        data[item["Name"]] = {"godIcon_URL": item["godIcon_URL"],
+                              "godCard_URL": item["godCard_URL"]}
+
       json.dump(data, f, indent = 1)
 
 def make_stats_from_db():
