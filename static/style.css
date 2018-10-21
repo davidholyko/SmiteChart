@@ -1,3 +1,20 @@
-h1 {
-  color: deepskyblue;
+.wrapper{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows:minmax(100px, auto);
+  grid-gap:1em;
+  justify-items:stretch;
+  align-items:stretch;
 }
+
+.wrapper > div{
+  background:#eee;
+  padding:1em;
+}
+.wrapper > div:nth-child(odd){
+  background:#ddd;
+}
+
+img {
+  max-width: 100px;
+  max-length: 100px;}
