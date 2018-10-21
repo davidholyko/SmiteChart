@@ -2,6 +2,7 @@ from flask import Flask, render_template
 from smite_db import *
 from smite_json import *
 from smite_plot import *
+from smite_webpage_methods import *
 import sqlite3
 
 app = Flask(__name__)
@@ -30,11 +31,9 @@ def char_test_page(id):
     c.execute("SELECT * FROM god_icon_table WHERE name = :god", {"god" : id})
     all = c.fetchone()
 
-    stats = get_stats_from_db(id)
-    chart = make_radar_chart(id, stats)
-    img = "/static/images/tmp/" + str(id) + ".png"
+    img = make_chart(id)
 
-    return render_template('char_test_page.html', name = god_name, attr = attributes, all = all, stats = stats, img = img)
+    return render_template('char_test_page.html', name = god_name, attr = attributes, all = all, img = img)
 
 
 @app.route("/")
@@ -60,9 +59,9 @@ def char_page(id):
     c.execute("SELECT * FROM god_icon_table WHERE name = :god", {"god" : id})
     all = c.fetchone()
 
-    stats = get_stats_from_db(id)
+    img = make_chart(id)
 
-    return render_template('char_page.html', name = god_name, attr = attributes, all = all, stats = stats)
+    return render_template('char_page.html', name = god_name, attr = attributes, all = all, img = img)
 
 if __name__ == '__main__':
   app.run(debug = True)
