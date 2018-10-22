@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 from smite_json import *
 from matplotlib.spines import Spine
+from matplotlib.patches import RegularPolygon
 import numpy as np
 
 labels=['Siege', 'Initiation', 'Crowd Control', 'Wave Clear', 'Objective Damage']
@@ -27,11 +28,13 @@ def make_radar_chart(name, stats, labels = labels, plot_markers = markers):
     for gl in gridlines:
         gl.get_path()._interpolation_steps = 5
 
+    RegularPolygon((0.5, 0.5), 5, radius=.5, edgecolor="k")
+
     fig.savefig("static/images/tmp/%s.png" % name)
 
-    # shows chart
+    # # shows chart
     # plt.show()
 
 
-# example
+# # example
 # make_radar_chart("Achilles", stats = get_stats_from_db("Achilles"))
