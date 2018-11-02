@@ -7,7 +7,7 @@ import json
 # # gets api info put back later
 # make_raw_data_json(API_call)
 # makes raw_data.json
-# 
+#
 # make_gods_json()
 # # makes god_attributes.json
 # make_icon_json()
@@ -18,3 +18,4 @@ import json
 # # doesnt do anything right now
 # make_stats_from_db()
 # # makes a stats json updated from db
+print("done")
