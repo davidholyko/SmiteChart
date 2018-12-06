@@ -1,13 +1,20 @@
 <head>
+
+  <title>SmiteChart</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
   <title>SmiteChart</title>
   <style>
+  body {
+    background-color: black;
+  }
 
   header {
     background: url("https://d1u5p3l4wpay3k.cloudfront.net/smite_gamepedia/4/48/Smite-game-info.jpg?version=1846ece5a3146785444456b2fddfa033");
     background-size: cover;
-    padding-top: 600px;
     max-width: 100%;
-    height: auto;
+    height: 60%;
   }
   .wrapper{
     display:grid;
@@ -19,11 +26,11 @@
   }
 
   .wrapper > div{
-    background:#000;
+    background:#444;
     padding:1em;
   }
   .wrapper > div:nth-child(odd){
-    background:#888;
+    background:#CCC;
   }
 
   img {
@@ -35,16 +42,22 @@
     color:white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0);
+    font-size: 20px;
+  }
+  .thumbnail {
+    border-bottom: 40px solid #000;
+
   }
 
   </style>
 </head>
 
 
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<body>
 
 <header>
+
     <li class="list-group-item"> <a href="test"> LINK TO TEST PAGE </a> </li>
 
 </header>
@@ -63,3 +76,8 @@
       {% endfor %}
     </div>
   </p>
+
+
+
+
+</body>

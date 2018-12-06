@@ -18,3 +18,8 @@
 img {
   max-width: 100px;
   max-length: 100px;}
+
+.img {
+  max-width: 100%;
+  max-lenth: 100%;
+}
