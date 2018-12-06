@@ -24,6 +24,7 @@ def make_icon_json():
     with open("god_icon.json", "w") as f:
       json_data = json.loads(open('raw_data.json').read())
       data = {}
+      count = 0;
 
       for item in json_data:
         # data.append({"name" : item["Name"],
@@ -31,7 +32,12 @@ def make_icon_json():
         #              "godCard_URL": item["godCard_URL"]})
 
         data[item["Name"]] = {"godIcon_URL": item["godIcon_URL"],
-                              "godCard_URL": item["godCard_URL"]}
+                              "godCard_URL": item["godCard_URL"],
+                              "god_URL" : str("../../gods/" + str(item["Name"]).replace(" ","%20") + "/"),
+                              "count": count
+                              }
+
+        count = count + 1;
 
       json.dump(data, f, indent = 1)
 

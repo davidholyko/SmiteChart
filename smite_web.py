@@ -3,6 +3,7 @@ from smite_db import *
 from smite_json import *
 from smite_plot import *
 from smite_webpage_methods import *
+
 import sqlite3
 
 app = Flask(__name__)
@@ -14,7 +15,7 @@ def test():
     return render_template("test.html",  data = data)
 
 
-@app.route("/test/gods/<string:id>")
+@app.route("/test/gods/<string:id>/")
 def char_test_page(id):
     conn = sqlite3.connect("god_attributes.db")
     c = conn.cursor()
@@ -27,12 +28,38 @@ def char_test_page(id):
     all = c.fetchone()
 
     img = make_chart(id)
+    icon = icons()
+    prev = ""
+    next = ""
+    max = len(icon)
 
-    return render_template('char_test_page.html', name = god_name, attr = attributes, all = all, img = img)
+
+    prev_count = icon[id]["count"] - 1
+    next_count = icon[id]["count"] + 1
+
+    # if (prev_count < max):
+    #     prev_count = max
+    # if (next_count > max):
+    #     next_count = 0
+
+    for item in icon:
+        if (icon[item]["count"] == prev_count):
+            prev = icon[item]["god_URL"]
+        if (icon[item]["count"] == next_count):
+            next = icon[item]["god_URL"]
+
+
+
+
+
+
+    # prev = icon[prev_id]["god_URL"]
+
+
+    return render_template('char_test_page.html', name = god_name, attr = attributes, all = all, img = img, icon = icon, prev = prev, next = next)
 
 
 @app.route("/")
-@app.route("/gods/")
 def data():
     data = icons()
     return render_template('home.html', data = data)
@@ -50,8 +77,9 @@ def char_page(id):
     all = c.fetchone()
 
     img = make_chart(id)
+    icon = icons()
 
-    return render_template('char_page.html', name = god_name, attr = attributes, all = all, img = img)
+    return render_template('char_page.html', name = god_name, attr = attributes, all = all, img = img, icon = icon)
 
 if __name__ == '__main__':
   app.run(debug = True)
